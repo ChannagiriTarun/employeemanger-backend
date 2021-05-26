@@ -8,7 +8,7 @@ import tech.getarrays.employeemanager.service.EmployeeService;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://employeemanager-frontend.herokuapp.com/")
+@CrossOrigin(origins = "https://employeemanager-frontend.herokuapp.com")
 @RestController
 @RequestMapping("/employee")
 public class EmployeeResource {
